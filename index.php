@@ -11,7 +11,6 @@
   <body>
     <header>
       <nav class="header">
-        <section class="medium">
         <div class="name-logo active">
           <a href="#"><img class="logo" src="images/logo-white.png" alt="Logo Colégio Criarte" /></a>
         </div>
@@ -32,7 +31,6 @@
             <img class="social" src="images/facebook.png" alt="Logo Facebook" />
           </a>
         </div>
-        </section>
       </nav>
     </header>
     <main>

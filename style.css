@@ -46,10 +46,6 @@ p {
   text-align: center;
 }
 
-.medium {
-    width: 80%;
-}
-
 .header .name-logo a {
   display: flex;
   align-items: center;
