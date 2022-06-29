@@ -243,6 +243,19 @@ main a:hover {
         border-radius: 10px;
         box-shadow: 3px 3px #0d1b2a,  0 0.2em;
     }
+    .botton {
+        text-decoration: none;
+        color: #e0e1dd;
+        background-color: #415a77;
+        border-radius: 5px;
+        padding: 8px 18px;
+        font-family: "Averia Serif Libre", cursive;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+    }
     .botton:hover {
         color: #e0e1dd;
         background-color: #49698d;

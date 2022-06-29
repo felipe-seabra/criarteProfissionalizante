@@ -179,6 +179,7 @@
             >
           </div>
         </section>
+        <br><hr>
       </article>
     </main>
     <footer>
