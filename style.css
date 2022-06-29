@@ -3,7 +3,7 @@
 
 body {
     font-family: "Andada Pro", serif;
-    background-color: #e0e1dd;
+    background-color: #e0e1dd !important;
     margin: 0;
     align-content: center;
 }
