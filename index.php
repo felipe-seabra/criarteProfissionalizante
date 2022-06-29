@@ -81,6 +81,7 @@
             >
           </div>
         </section>
+        <hr>
         <section class="pt-4 container justify-center">
           <div class="text-center">
             <h2>Técnico em Farmácia</h2>
@@ -127,6 +128,7 @@
             >
           </div>
         </section>
+        <hr>
         <section class="pt-4 container justify-center">
           <div class="text-center">
             <h2>Técnico em Radiologia</h2>
