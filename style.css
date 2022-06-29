@@ -130,9 +130,13 @@ a {
     padding-left: 2em;
 }
 
+.mt-5 {
+    margin-top: 50px;
+}
+
 .container {
     display: flex;
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
@@ -159,13 +163,22 @@ main a:hover {
 }
 
 .tecs {
-    width: 400px;
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #0d1b2a,  0 0.2em;
+}
+
+.list {
+    text-align: left;
+    font-size: 1.2em;
 }
 
 .botton {
     text-decoration: none;
     color: #e0e1dd;
-    background-color: #0d1b2a;
+    background-color: #415a77;
+    border-radius: 5px;
     padding: 10px 20px;
     font-family: "Averia Serif Libre", cursive;
     font-size: 16px;
@@ -175,14 +188,21 @@ main a:hover {
     cursor: pointer;
 }
 
+#green {
+    background-color: #34af23;
+}
+
 .botton:hover {
-    color: #778da9;
+    color: #e0e1dd;
+    background-color: #49698d;
+    font-size: 1.05em;
 }
 
 /*main*/
 
 /*rodapé*/
 .footer {
+    margin-top: 50px;
     display: flex;
     background-color: #0d1b2a;
     border-top: 7px solid #415a77;
@@ -208,9 +228,24 @@ main a:hover {
     .section {
         padding-top: 7rem;
     }
+    .header h1 {
+        color: white;
+        display: inline;
+        display: none;
+    }
     .container {
         display: block;
-        width: 70%;
+        width: 80%;
         margin: auto;
+    }
+    .tecs {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 3px 3px #0d1b2a,  0 0.2em;
+    }
+    .botton:hover {
+        color: #e0e1dd;
+        background-color: #49698d;
+        font-size: 1.01em;
     }
 }
