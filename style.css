@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Andada Pro", serif;
   background-color: #e0e1dd !important;
-  margin: 0;
   align-content: center;
 }
 
@@ -59,12 +63,14 @@ p {
 .header h1 {
   color: white;
   display: inline;
+  transform: .4s;
 }
 
 .header h1:hover {
   color: rgb(216, 216, 216);
   font-size: 1.55em;
   display: inline;
+  transform: scale(1.2);
 }
 
 .name-logo {
@@ -88,28 +94,28 @@ p {
   color: #e0e1dd;
   font-size: 1em;
   text-decoration: none;
+  transition: 0.4s;
 }
 
 nav a:hover {
   color: #babbb8;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  transform: scale(1.1);
 }
 
 /*desativa hover dos icones sociais*/
-.active a:hover {
-  font-size: 1em;
-}
 
 .social {
   width: 40px;
+  transition: .4s;
+}
+
+.social:hover {
+  transform: scale(1.2);
 }
 
 .logo {
   width: 130px;
-}
-
-a {
-  text-decoration: none;
 }
 /*navbar*/
 
@@ -148,11 +154,6 @@ a {
   text-align: center;
 }
 
-.picture {
-  border-radius: 20px;
-  box-shadow: 3px 3px #0d1b2a, -1em 0 0.4em #778da9;
-}
-
 .tecs {
   width: 300px;
   margin-right: 50px;
@@ -166,28 +167,30 @@ a {
 }
 
 .botton {
-  text-decoration: none;
-  color: #e0e1dd;
-  background-color: #415a77;
-  border-radius: 5px;
-  padding: 10px 20px;
   font-family: "Averia Serif Libre", cursive;
-  font-size: 16px;
-  line-height: 20px;
+  background-color: #415a77;
+  color: #e0e1dd;
+  text-decoration: none;
   font-weight: bold;
-  text-align: center;
-  cursor: pointer;
-  transition: transform .4s;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.4s;
 }
 
 #green {
   background-color: #34af23;
 }
 
+#green:hover {
+  background-color: #4dcc3c;
+  font-size: 1.1em;
+  transform: scale(1.1);
+}
+
 .botton:hover {
-  color: #e0e1dd;
   background-color: #49698d;
-  transform: scale(1.2);
+  font-size: 1.1em;
+  transform: scale(1.1);
 }
 
 /*main*/
@@ -197,7 +200,7 @@ a {
   margin-top: 50px;
   display: flex;
   background-color: #0d1b2a;
-  border-top: 7px solid #415a77;
+  border-top: 5px solid #415a77;
   padding: 0;
   height: 30px;
   color: white;
@@ -237,21 +240,29 @@ a {
     box-shadow: 3px 3px #0d1b2a, 0 0.2em;
   }
   .botton {
-    text-decoration: none;
-    color: #e0e1dd;
-    background-color: #415a77;
-    border-radius: 5px;
-    padding: 8px 18px;
     font-family: "Averia Serif Libre", cursive;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 700;
-    text-align: center;
-    cursor: pointer;
-  }
-  .botton:hover {
+    background-color: #415a77;
     color: #e0e1dd;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+  
+  #green {
+    background-color: #34af23;
+  }
+  
+  #green:hover {
+    background-color: #4dcc3c;
+    font-size: 1.1em;
+    transform: scale(1.1);
+  }
+  
+  .botton:hover {
     background-color: #49698d;
-    font-size: 1.01em;
+    font-size: 1.1em;
+    transform: scale(1.1);
   }
 }

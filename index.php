@@ -15,7 +15,7 @@
           <a href="#"><img class="logo" src="images/logo-white.png" alt="Logo Colégio Criarte" /></a>
         </div>
         <div class="nav-links">
-          <h1>Cursos Profissionalizantes</h1>
+          <h1>Cursos <span>Profissionalizantes</span></h1>
           <!-- <ul>
             <li><a href="#"> Home </a> &nbsp; &nbsp;</li>
             <li><a href="about.html"> Sobre </a> &nbsp; &nbsp;</li>
@@ -89,7 +89,7 @@
               <picture>
                 <img class="tecs" src="images/farmacia.png" alt="Foto de uma técnica em farmácia" />
               </picture>
-              <div class="">
+              <div>
                 <p>
                   O Curso Técnico em Farmácia tem como objetivo formar pessoal qualificado para atuar na área de vendas,
                   dispensação de materiais, auxiliar na manipulação de medicamentos, além de atuar na distribuição de
@@ -136,7 +136,7 @@
               <picture>
                 <img class="tecs" src="images/radiologia.png" alt="Foto de uma técnica em farmácia" />
               </picture>
-              <div class="">
+              <div>
                 <p>
                   O Curso Técnico em Radiologia prepara o profissional para atuar nas diversas áreas de aplicação da
                   radiação ionizante e fornecer subsídios de imagem para o diagnóstico de diversas patologias.<br> O
