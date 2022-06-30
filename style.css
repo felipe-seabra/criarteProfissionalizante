@@ -153,15 +153,6 @@ a {
   box-shadow: 3px 3px #0d1b2a, -1em 0 0.4em #778da9;
 }
 
-main a {
-  text-decoration: none;
-  color: #2fc18c;
-}
-
-main a:hover {
-  color: #036b52;
-}
-
 .tecs {
   width: 300px;
   margin-right: 50px;
@@ -183,9 +174,10 @@ main a:hover {
   font-family: "Averia Serif Libre", cursive;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   cursor: pointer;
+  transition: transform .4s;
 }
 
 #green {
@@ -195,7 +187,7 @@ main a:hover {
 .botton:hover {
   color: #e0e1dd;
   background-color: #49698d;
-  font-size: 1.05em;
+  transform: scale(1.2);
 }
 
 /*main*/
