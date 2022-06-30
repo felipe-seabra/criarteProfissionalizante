@@ -244,6 +244,7 @@ hr {
     border-radius: 10px;
     margin: auto;
     box-shadow: 3px 3px #0d1b2a, 0 0.2em;
+    margin-bottom: 15px;
   }
   .botton {
     font-family: "Averia Serif Libre", cursive;

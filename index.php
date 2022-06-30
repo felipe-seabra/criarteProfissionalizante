@@ -38,6 +38,7 @@
         <section class="pt-4 container justify-center">
           <div class="text-center mt-5">
             <h2>Técnico em Enfermagem</h2>
+            <br />
             <div class="container justify-center">
               <picture>
                 <img class="tecs" src="images/enfermagem.png" alt="Foto de uma técnica em farmácia" />
@@ -81,10 +82,12 @@
             >
           </div>
         </section>
-        <br><hr>
+        <br />
+        <hr />
         <section class="pt-4 container justify-center">
           <div class="text-center">
             <h2>Técnico em Farmácia</h2>
+            <br />
             <div class="container justify-center">
               <picture>
                 <img class="tecs" src="images/farmacia.png" alt="Foto de uma técnica em farmácia" />
@@ -128,10 +131,12 @@
             >
           </div>
         </section>
-        <br><hr>
+        <br />
+        <hr />
         <section class="pt-4 container justify-center">
           <div class="text-center">
             <h2>Técnico em Radiologia</h2>
+            <br />
             <div class="container justify-center">
               <picture>
                 <img class="tecs" src="images/radiologia.png" alt="Foto de uma técnica em farmácia" />
@@ -139,14 +144,13 @@
               <div>
                 <p>
                   O Curso Técnico em Radiologia prepara o profissional para atuar nas diversas áreas de aplicação da
-                  radiação ionizante e fornecer subsídios de imagem para o diagnóstico de diversas patologias.<br> O
-                  profissional realiza exames radiográficos convencionais. Processa filmes radiológicos. Prepara o
+                  radiação ionizante e fornecer subsídios de imagem para o diagnóstico de diversas patologias.<br />
+                  O profissional realiza exames radiográficos convencionais. Processa filmes radiológicos. Prepara o
                   paciente e o ambiente para a realização de exames nos serviços de radiologia e diagnóstico por imagem,
                   tais como: mamografia, hemodinâmica, tomografia computadorizada, densitometria óssea, ressonância
                   magnética nuclear e ultra-sonografia. Acompanha a utilização de meios de contraste radiológicos,
                   observando os princípios de proteção radiológica, avaliando reações adversas e agindo em situações de
-                  urgência, sob supervisão profissional pertinente.
-                  <br /><br />
+                  urgência, sob supervisão profissional pertinente. <br /><br />
                   <strong>ÁREA DE ATUAÇÃO:</strong>
                 </p>
                 <ul class="list">
@@ -155,9 +159,7 @@
                   <li>prontos-socorros;</li>
                   <li>laboratórios de radiologia.</li>
                 </ul>
-                <p>
-                  <br /><strong> DURAÇÃO: </strong> 18 meses
-                </p>
+                <p><br /><strong> DURAÇÃO: </strong> 18 meses</p>
               </div>
             </div>
             <br /><br />
@@ -179,7 +181,8 @@
             >
           </div>
         </section>
-        <br><hr>
+        <br />
+        <hr />
       </article>
     </main>
     <footer>
