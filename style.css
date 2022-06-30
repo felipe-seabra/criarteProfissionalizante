@@ -193,6 +193,12 @@ nav a:hover {
   transform: scale(1.1);
 }
 
+hr {
+  width: 50%;
+  margin: auto;
+  color: #49698d;
+}
+
 /*main*/
 
 /*rodapé*/
