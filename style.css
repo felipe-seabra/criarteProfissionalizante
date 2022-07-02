@@ -227,7 +227,7 @@ hr {
   }
 }
 
-@media (orientation: portrait) {
+@media (max-width: 980px) {
   .section {
     padding-top: 7rem;
   }
