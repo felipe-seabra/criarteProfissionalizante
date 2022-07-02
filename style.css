@@ -221,7 +221,7 @@ hr {
   width: 100%;
 }
 
-@media (orientation: landscape) {
+@media (min-width: 980px) {
   p {
     font-size: 1.25rem;
   }
