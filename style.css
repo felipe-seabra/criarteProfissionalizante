@@ -8,7 +8,7 @@
 
 body {
   font-family: "Andada Pro", serif;
-  background-color: #e0e1dd !important;
+  background: #ffffff url("images/background-main.png") no-repeat right top fixed;
   align-content: center;
 }
 
@@ -120,20 +120,12 @@ nav a:hover {
 /*navbar*/
 
 /*main*/
-#about {
-  font-size: 3em;
-}
-
 .logos-main {
   width: 40px;
 }
 
 .pt-4 {
   padding-top: 4em;
-}
-
-.pl-2 {
-  padding-left: 2em;
 }
 
 .mt-5 {
@@ -198,7 +190,9 @@ nav a:hover {
 hr {
   width: 50%;
   margin: auto;
-  color: #49698d;
+  margin-top: 10px;
+  border-color: #49698d;
+  box-shadow: 0 0.1em 0.3em #0d1b2a;
 }
 
 /*main*/
