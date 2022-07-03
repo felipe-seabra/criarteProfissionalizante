@@ -160,7 +160,6 @@ nav a:hover {
 
 .botton {
   font-family: "Averia Serif Libre", cursive;
-  background-color: #415a77;
   color: #e0e1dd;
   text-decoration: none;
   font-weight: bold;
@@ -171,17 +170,21 @@ nav a:hover {
   transition: 0.4s;
 }
 
-#green {
+.blue {
+  background-color: #415a77;
+}
+
+.green {
   background-color: #34af23;
 }
 
-#green:hover {
+.green:hover {
   background-color: #4dcc3c;
   font-size: 1.02em;
   transform: scale(1.1);
 }
 
-.botton:hover {
+.blue:hover {
   background-color: #49698d;
   font-size: 1.02em;
   transform: scale(1.1);
@@ -248,7 +251,6 @@ hr {
   }
   .botton {
     font-family: "Averia Serif Libre", cursive;
-    background-color: #415a77;
     color: #e0e1dd;
     text-decoration: none;
     font-weight: bold;
@@ -259,11 +261,7 @@ hr {
     transition: 0.4s;
   }
 
-  #green {
-    background-color: #34af23;
-  }
-
-  #green:hover {
+  .green:hover {
     background-color: #4dcc3c;
     font-size: 1.1em;
     transform: scale(1.1);
