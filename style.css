@@ -8,8 +8,10 @@
 
 body {
   font-family: "Andada Pro", serif;
-  background: #ffffff url("images/background-main.png") no-repeat right top fixed;
   align-content: center;
+  background: url("images/background-main.png");
+  background-size: cover;
+  background-position: center center;
 }
 
 h1 {
