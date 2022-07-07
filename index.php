@@ -153,7 +153,7 @@
                     >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 16 anos e ter concluído ou estar
                     cursando a partir do segundo ano do Ensino Médio. </em
                   ><br />
-                  <br /><strong> DURAÇÃO: </strong> 18 meses
+                  <br /><strong> DURAÇÃO: </strong> 19 meses
                 </p>
               </div>
             </div>
