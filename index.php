@@ -66,7 +66,7 @@
                   <li>postos de saúde;</li>
                   <li>empresas de grandes portes e a domicilio.</li>
                 </ul>
-                <p>
+                <p><br>
                   <em
                     >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 17 anos e ter concluído ou estar
                     cursando a partir do segundo ano do Ensino Médio.
@@ -105,7 +105,7 @@
                   <li>distribuidoras de medicamentos, insumos e correlatos;</li>
                   <li>indústrias farmacêuticas.</li>
                 </ul>
-                <p>
+                <p><br>
                   <em>Suas atividades são desenvolvidas sob supervisão e orientação do Farmacêutico.</em> <br /><br />
                   <em
                     >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 16 anos e ter concluído ou estar
@@ -148,7 +148,7 @@
                   <li>prontos-socorros;</li>
                   <li>laboratórios de radiologia.</li>
                 </ul>
-                <p>
+                <p><br>
                   <em
                     >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 16 anos e ter concluído ou estar
                     cursando a partir do segundo ano do Ensino Médio. </em
