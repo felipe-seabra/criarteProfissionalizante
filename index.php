@@ -140,8 +140,8 @@
                   magnética nuclear e ultra-sonografia. Acompanha a utilização de meios de contraste radiológicos,
                   observando os princípios de proteção radiológica, avaliando reações adversas e agindo em situações de
                   urgência, sob supervisão profissional pertinente. <br /><br />
-                  <strong>ÁREA DE ATUAÇÃO:</strong>
                 </p>
+                <strong>ÁREA DE ATUAÇÃO:</strong>
                 <ul class="list">
                   <li>hospitais;</li>
                   <li>clínicas;</li>
@@ -151,8 +151,8 @@
                 <p>
                   <em
                     >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 16 anos e ter concluído ou estar
-                    cursando a partir do segundo ano do Ensino Médio.
-                  </em><br>
+                    cursando a partir do segundo ano do Ensino Médio. </em
+                  ><br />
                   <br /><strong> DURAÇÃO: </strong> 18 meses
                 </p>
               </div>
