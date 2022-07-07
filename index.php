@@ -57,7 +57,10 @@
                   pediátricos e graves.
                 </p>
                 <br />
-                <strong>ÁREA DE ATUAÇÃO:</strong>
+                <p>
+                  <strong>ÁREA DE ATUAÇÃO:</strong>
+                </p>
+                <br />
 
                 <ul class="list">
                   <li>atendem em hospitais;</li>
@@ -66,7 +69,8 @@
                   <li>postos de saúde;</li>
                   <li>empresas de grandes portes e a domicilio.</li>
                 </ul>
-                <p><br>
+                <p>
+                  <br />
                   <em
                     >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 17 anos e ter concluído ou estar
                     cursando a partir do segundo ano do Ensino Médio.
@@ -97,7 +101,10 @@
                   dispensação de materiais, auxiliar na manipulação de medicamentos, além de atuar na distribuição de
                   medicamentos da farmácia hospitalar. <br /><br />
                 </p>
-                <strong>ÁREA DE ATUAÇÃO:</strong>
+                <p>
+                  <strong>ÁREA DE ATUAÇÃO:</strong>
+                </p>
+                <br />
                 <ul class="list">
                   <li>drogarias comerciais;</li>
                   <li>farmácias de manipulação;</li>
@@ -105,7 +112,8 @@
                   <li>distribuidoras de medicamentos, insumos e correlatos;</li>
                   <li>indústrias farmacêuticas.</li>
                 </ul>
-                <p><br>
+                <p>
+                  <br />
                   <em>Suas atividades são desenvolvidas sob supervisão e orientação do Farmacêutico.</em> <br /><br />
                   <em
                     >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 16 anos e ter concluído ou estar
@@ -141,14 +149,18 @@
                   observando os princípios de proteção radiológica, avaliando reações adversas e agindo em situações de
                   urgência, sob supervisão profissional pertinente. <br /><br />
                 </p>
-                <strong>ÁREA DE ATUAÇÃO:</strong>
+                <p>
+                  <strong>ÁREA DE ATUAÇÃO:</strong>
+                </p>
+                <br />
                 <ul class="list">
                   <li>hospitais;</li>
                   <li>clínicas;</li>
                   <li>prontos-socorros;</li>
                   <li>laboratórios de radiologia.</li>
                 </ul>
-                <p><br>
+                <p>
+                  <br />
                   <em
                     >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 16 anos e ter concluído ou estar
                     cursando a partir do segundo ano do Ensino Médio. </em
