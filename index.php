@@ -107,6 +107,7 @@
                 <br />
                 <ul class="list">
                   <li>drogarias comerciais;</li>
+                  <li>laboratórios;</li>
                   <li>farmácias de manipulação;</li>
                   <li>farmácias hospitalares e de Unidades Básicas de Saúde;</li>
                   <li>distribuidoras de medicamentos, insumos e correlatos;</li>
@@ -157,13 +158,13 @@
                   <li>hospitais;</li>
                   <li>clínicas;</li>
                   <li>prontos-socorros;</li>
+                  <li>postos de saúde;</li>
                   <li>laboratórios de radiologia.</li>
                 </ul>
                 <p>
                   <br />
                   <em
-                    >Para fazer este curso, o(a) interessado(a) deve ter no mínimo 16 anos e ter concluído ou estar
-                    cursando a partir do segundo ano do Ensino Médio. </em
+                    >Para fazer este curso, o(a) interessado(a) deve ter 18 anos completos e ter concluído o Ensino Médio. </em
                   ><br />
                   <br /><strong> DURAÇÃO: </strong> 19 meses
                 </p>
