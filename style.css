@@ -1,251 +1,339 @@
 @import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: "Andada Pro", serif;
-    background-color: #e0e1dd;
-    margin: 0;
-    align-content: center;
+  font-family: "Andada Pro", serif;
+  align-content: center;
+  background: url("images/background-main.png");
+  background-size: cover;
+  background-position: center center;
 }
 
 h1 {
-    padding-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 h1,
 h2,
 h4,
 .navbar-brand {
-    font-family: "Averia Serif Libre", cursive;
+  font-family: "Averia Serif Libre", cursive;
 }
 
 h2 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 #picture {
-    border-radius: 10%;
+  border-radius: 10%;
 }
 
 /* navbar */
 .header {
-    position: fixed;
-    font-family: "Averia Serif Libre", cursive;
-    font-size: 18px;
-    display: flex;
-    background-color: #0d1b2a;
-    border-bottom: 7px solid #415a77;
-    height: 100px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  position: fixed;
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 18px;
+  display: flex;
+  background-color: #0d1b2a;
+  border-bottom: 7px solid #415a77;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .header .name-logo a {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header li {
-    display: inline;
-    list-style: none;
+  display: inline;
+  list-style: none;
 }
 
 .header h1 {
-    color: white;
-    display: inline;
+  color: white;
+  display: inline;
+  transform: 0.4s;
 }
 
 .header h1:hover {
-    color: rgb(216, 216, 216);
-    font-size: 1.55em;
-    display: inline;
+  color: rgb(216, 216, 216);
+  font-size: 1.55em;
+  display: inline;
+  transform: scale(1.2);
 }
 
 .name-logo {
-    position: absolute;
-    left: 1em;
-    margin: auto;
+  position: absolute;
+  left: 1em;
+  margin: auto;
 }
 
 .nav-links {
-    position: absolute;
-    margin: auto;
+  position: absolute;
+  margin: auto;
 }
 
 .sociais {
-    position: absolute;
-    right: 1em;
-    margin: auto;
+  position: absolute;
+  right: 1em;
+  margin: auto;
 }
 
 .header a {
-    color: #e0e1dd;
-    font-size: 1em;
-    text-decoration: none;
+  color: #e0e1dd;
+  font-size: 1em;
+  text-decoration: none;
+  transition: 0.4s;
 }
 
 nav a:hover {
-    color: #babbb8;
-    font-size: 1.2em;
+  color: #babbb8;
+  font-size: 1.1em;
+  transform: scale(1.1);
 }
 
 /*desativa hover dos icones sociais*/
-.active a:hover {
-    font-size: 1em;
-}
 
 .social {
-    width: 40px;
+  width: 40px;
+  transition: 0.4s;
+}
+
+.social:hover {
+  transform: scale(1.2);
 }
 
 .logo {
-    width: 130px;
-}
-
-a {
-    text-decoration: none;
+  width: 130px;
 }
 /*navbar*/
 
 /*main*/
-#about {
-    font-size: 3em;
-}
-
 .logos-main {
-    width: 40px;
+  width: 40px;
 }
 
 .pt-4 {
-    padding-top: 4em;
-}
-
-.pl-2 {
-    padding-left: 2em;
+  padding-top: 4em;
 }
 
 .mt-5 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .container {
-    display: flex;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  width: 80%;
+  margin: auto;
 }
 
 .justify-center {
-    align-items: center;
+  align-items: center;
 }
 
 .text-center {
-    text-align: center;
-}
-
-.picture {
-    border-radius: 20px;
-    box-shadow: 3px 3px #0d1b2a, -1em 0 0.4em #778da9;
-}
-
-main a {
-    text-decoration: none;
-    color: #2fc18c;
-}
-
-main a:hover {
-    color: #036b52;
+  text-align: center;
 }
 
 .tecs {
-    width: 300px;
-    margin-right: 50px;
-    border-radius: 10px;
-    box-shadow: 3px 3px #0d1b2a,  0 0.2em;
+  width: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  box-shadow: 3px 3px #0d1b2a, 0 0.2em;
 }
 
 .list {
-    text-align: left;
-    font-size: 1.2em;
+  text-align: left;
+  font-size: 1.2em;
 }
 
 .botton {
-    text-decoration: none;
-    color: #e0e1dd;
-    background-color: #415a77;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-family: "Averia Serif Libre", cursive;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 700;
-    text-align: center;
-    cursor: pointer;
+  font-family: "Averia Serif Libre", cursive;
+  color: #e0e1dd;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 5px;
+  transition: 0.4s;
 }
 
-#green {
-    background-color: #34af23;
+.blue {
+  background-color: #415a77;
 }
 
-.botton:hover {
-    color: #e0e1dd;
-    background-color: #49698d;
-    font-size: 1.05em;
+.green {
+  background-color: #34af23;
+}
+
+.green:hover {
+  background-color: #4dcc3c;
+  font-size: 1.02em;
+  transform: scale(1.1);
+}
+
+.blue:hover {
+  background-color: #49698d;
+  font-size: 1.02em;
+  transform: scale(1.1);
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  border-color: #49698d;
+  box-shadow: 0 0.1em 0.3em #0d1b2a;
 }
 
 /*main*/
 
 /*rodapé*/
 .footer {
-    margin-top: 50px;
-    display: flex;
-    background-color: #0d1b2a;
-    border-top: 7px solid #415a77;
-    padding: 0;
-    height: 30px;
-    color: white;
-    width: 100%;
-    align-items: center;
+  margin-top: 50px;
+  display: flex;
+  background-color: #0d1b2a;
+  border-top: 5px solid #415a77;
+  padding: 0;
+  height: 30px;
+  color: white;
+  width: 100%;
+  align-items: center;
 }
 
 .footer p {
-    font-size: small;
-    width: 100%;
+  font-size: small;
+  width: 100%;
 }
 
-@media (orientation: landscape) {
-    p {
-        font-size: 1.25rem;
-    }
+@media (min-width: 980px) {
+  p {
+    font-size: 1.25rem;
+  }
 }
 
-@media (orientation: portrait) {
-    .section {
-        padding-top: 7rem;
-    }
-    .header h1 {
-        color: white;
-        display: inline;
-        display: none;
-    }
-    .container {
-        display: block;
-        width: 80%;
-        margin: auto;
-    }
-    .tecs {
-        width: 300px;
-        border-radius: 10px;
-        box-shadow: 3px 3px #0d1b2a,  0 0.2em;
-    }
-    .botton:hover {
-        color: #e0e1dd;
-        background-color: #49698d;
-        font-size: 1.01em;
-    }
+@media (max-width: 980px) {
+  .section {
+    padding-top: 7rem;
+  }
+  .header h1 {
+    color: white;
+    display: inline;
+    display: none;
+  }
+  .container {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  .container p {
+    text-align: justify-all;
+    margin-top: 5px;
+  }
+  .tecs {
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px #0d1b2a, 0 0.2em;
+    margin-bottom: 15px;
+  }
+  .botton {
+    font-family: "Averia Serif Libre", cursive;
+    color: #e0e1dd;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 9px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+
+  .green:hover {
+    background-color: #4dcc3c;
+    font-size: 1.1em;
+    transform: scale(1.1);
+  }
+
+  .botton:hover {
+    background-color: #49698d;
+    font-size: 1.1em;
+    transform: scale(1.1);
+  }
+}
+
+/*COOKIE*/
+.cookieConsentContainer {
+  z-index: 999;
+  width: 350px;
+  min-height: 20px;
+  box-sizing: border-box;
+  padding: 30px 30px 30px 30px;
+  background: #0d1b2a;
+  overflow: hidden;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
+.cookieConsentContainer .cookieTitle a {
+  font-family: OpenSans, arial, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 20px;
+  display: block;
+}
+.cookieConsentContainer .cookieDesc p {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans, arial, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  display: block;
+  margin-top: 10px;
+}
+.cookieConsentContainer .cookieDesc a {
+  font-family: OpenSans, arial, sans-serif;
+  color: #fff;
+  text-decoration: underline;
+}
+.cookieConsentContainer .cookieButton a {
+  display: inline-block;
+  font-family: OpenSans, arial, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 14px;
+  background: #415a77;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  text-align: center;
+  transition: background 0.3s;
+}
+.cookieConsentContainer .cookieButton a:hover {
+  cursor: pointer;
+  background: #49698d;
+}
+@media (max-width: 980px) {
+  .cookieConsentContainer {
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+  }
 }
