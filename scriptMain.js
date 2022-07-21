@@ -1,14 +1,14 @@
 const changeTextButton = (classe, texto) => {
-  let Bottons = document.getElementsByClassName(classe);
-  for (let botton of Bottons) {
-    botton.innerText = texto;
+  let buttons = document.getElementsByClassName(classe);
+  for (let button of buttons) {
+    button.innerText = texto;
   }
 }
 
 const addLinkButton =(classe, link) => {
-  let Bottons = document.getElementsByClassName(classe);
-  for (let botton of Bottons) {
-    botton.href = link;
+  let buttons = document.getElementsByClassName(classe);
+  for (let button of buttons) {
+    button.href = link;
   }
 }
 
